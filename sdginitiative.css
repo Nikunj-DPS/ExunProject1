@@ -1,0 +1,99 @@
+body{
+   font-family: cursive;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    background-color:rgb(35, 146, 215);
+    width: 100%;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.signup{
+    background-color: rgb(35, 146, 215);
+    color:white;
+    border:1px solid white;
+    border-radius: 3px;
+    height:30px;
+}
+
+.login{
+    background-color:white;
+    border:1px solid white;
+    border-radius: 3px;
+    height:30px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size:20px;
+}
+
+marquee{
+    background-color:rgb(35, 146, 215);
+}
+
+marquee img{
+    width:500px;
+    height:450px;
+    border:2px solid black;
+}
+
+.definesdg{
+    display: flex;
+    flex-direction: row;
+}
+
+.definesdg img{
+    width:400px;
+    height:300px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+}
+
+.aims{
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+}
+
+.pics{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.pics img{
+    width:175px;
+    height:175px;
+    border:2px solid black;
+}
+
+.end{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(35, 146, 215);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    height:30px;
+    justify-content:space-around;
+    align-items: center;
+}
